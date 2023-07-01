@@ -26,7 +26,7 @@ function Counter() {
 
       <div>
         <button onClick={() => setCount((c) => c - step)}>-</button>
-        <span> This is Count: {count}</span>
+        <span>Count: {count}</span>
         <button onClick={() => setCount((c) => c + step)}>+</button>
       </div>
       <p>
